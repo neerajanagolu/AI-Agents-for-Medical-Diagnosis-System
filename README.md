@@ -31,6 +31,7 @@ The outputs are then combined and summarized into **three possible health issues
 ---
 
 ## 📂 Repository Structure
+```bash
 project-root/
 │
 ├── Medical Reports/        # Synthetic medical reports used as input for analysis
@@ -44,6 +45,7 @@ project-root/
 ├── CONTRIBUTING.md         # Guidelines for contributing to the project
 ├── README.md               # Project documentation
 └── .DS_Store               # macOS system file (can be ignored)
+```
 
 ## ⚡ Quickstart
 
