@@ -1,6 +1,6 @@
 # AI-Agents-for-Medical-Diagnosis-System
 
-<img width="900" alt="image" src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000720071fab9d8ad842bc9f97c&ts=492400&p=fs&cid=1&sig=90c98edf2815ae8dcfd7276277094e6bb7e2e1a80a951db16eea802f34b19990&v=0">
+<img width="900" alt="image" src="https://github.com/neerajanagolu/AI-Agents-for-Medical-Diagnosis-System/blob/main/Medical%20Agents%20Arcgitecture.png">
 
 
 
