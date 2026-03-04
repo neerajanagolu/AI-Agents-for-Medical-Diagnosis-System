@@ -71,14 +71,56 @@ project-root/
 4. **Run the system:** `python main.py`
 ---
 
-## 🔮 Future Enhancements
+
+
+
+##  Future Enhancements
 
 Planned improvements for upcoming versions include:
 
-- **Specialist Expansion**: Add new agents for Neurology, Endocrinology, Immunology, and other fields.  
-- **Local LLM Support**: Integrate models such as **Llama 4** via Ollama, vLLM, or llama.cpp, with function-calling style hooks and safe code execution.  
-- **Vision Capabilities**: Enable multimodal decision-making with agents that analyze **radiology images** and other medical scans.  
-- **Live Data Tools**: Incorporate LLM-based tools for **real-time search** and querying structured **medical datasets**.  
-- **Advanced Parsing**: Improve handling of complex medical reports with structured outputs (e.g., JSON schema validation).  
-- **Automated Testing**: Add evaluation pipelines and smoke-test CI with mocked LLM calls for reproducibility.  
+### 🧑‍⚕️ Specialist Expansion
+
+Introduce additional expert agents such as **Neurology**, **Endocrinology**, **Immunology**, and other medical specialties to broaden diagnostic coverage.
+
+### 🧠 Local LLM Support
+
+Enable support for locally hosted models like **Llama 4** using tools such as **Ollama**, **vLLM**, or **llama.cpp**.
+This will allow:
+
+* Function-calling style workflows
+* Secure code execution
+* Reduced dependency on external APIs
+
+### 🩻 Vision Capabilities
+
+Add **multimodal AI agents** capable of analyzing medical images such as:
+
+* Radiology scans
+* X-rays
+* CT/MRI images
+
+### 🌐 Live Data Tools
+
+Integrate LLM-powered tools that can:
+
+* Perform **real-time medical knowledge retrieval**
+* Query **structured medical datasets**
+* Access updated clinical guidelines
+
+### 📑 Advanced Report Parsing
+
+Improve the system’s ability to process complex medical reports using:
+
+* Structured outputs
+* **JSON schema validation**
+* Better extraction of symptoms, findings, and lab results
+
+### 🧪 Automated Testing & Evaluation
+
+Implement testing pipelines including:
+
+* **Smoke tests for agent workflows**
+* **Mocked LLM responses for CI/CD**
+* Evaluation metrics for diagnosis quality
+
 ---
