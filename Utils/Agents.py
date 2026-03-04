@@ -11,8 +11,7 @@ class Agent:
         # Initialize the model
         self.model = ChatOpenAI(temperature=0, model="gpt-5")
 
-#if is this demo purpose and if you trigger with openai insufficien quota issue you can replace openai content with ollama that shown below
-
+#If you are running this project for demo purposes and face an OpenAI insufficient quota error, you can replace the OpenAI setup with Ollama as demonstrated below.
 #from langchain_core.prompts import PromptTemplate
 #from langchain_community.chat_models import ChatOllama
 
