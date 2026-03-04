@@ -6,19 +6,6 @@ A Python project that creates specialized **LLM-based AI agents** to analyze com
 The system integrates insights from different medical specialists to provide comprehensive assessments  
 and suggested treatment directions, demonstrating the potential of AI in multidisciplinary medicine.
 
-⚠️ **Disclaimer**: This project is for research and educational purposes only.  
-It is **not intended for clinical use**.
-
----
-
-## ✨ What’s New (Latest Update)
-
-- Added **MIT License**  
-- Fixed bugs and updated `requirements.txt`  
-- Added `.gitignore`  
-- Upgraded core LLM to **GPT-5**  
-
----
 
 ## 🚀 How It Works
 
@@ -53,7 +40,7 @@ The outputs are then combined and summarized into **three possible health issues
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/ahmadvh/AI-Agents-for-Medical-Diagnostics.git
+   git clone https://github.com/neerajanagolu/AI-Agents-for-Medical-Diagnosis-System.git
    cd AI-Agents-for-Medical-Diagnostics
    ```
 2. **Create a virtual environment and install dependencies:**
