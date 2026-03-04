@@ -1,30 +1,31 @@
-# AI-Agents-for-Medical-Diagnostics
+# AI-Agents-for-Medical-Diagnosis-System
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/b7c87bf6-dfff-42fe-b8d1-9be9e6c7ce86">
 
-A Python project that creates specialized **LLM-based AI agents** to analyze complex medical cases.  
-The system integrates insights from different medical specialists to provide comprehensive assessments  
-and suggested treatment directions, demonstrating the potential of AI in multidisciplinary medicine.
 
+A Python project that builds specialized LLM-powered AI agents to analyze complex medical cases.
+The system combines insights from multiple medical specialists to generate comprehensive assessments and suggest possible treatment directions.
+
+This project demonstrates how AI-driven multi-agent systems can assist in multidisciplinary medical analysis.
 
 ## 🚀 How It Works
 
 In the current version, we use **three AI agents (GPT-5)**, each specializing in a different aspect of medical analysis.  
-A medical report is passed to all agents, which run **in parallel (threading)** and return their findings.  
+A medical report is passed to all agents as an input , which run **in parallel (threading)** and return their findings into a file.  
 The outputs are then combined and summarized into **three possible health issues** with reasoning.
 
 ### AI Agents
 
 **1. Cardiologist Agent**  
-- *Focus*: Detect cardiac issues such as arrhythmias or structural abnormalities.  
+- *Focus*:Detects potential cardiac conditions, such as arrhythmias or structural heart abnormalities.
 - *Recommendations*: Cardiovascular testing, monitoring, and management strategies.  
 
 **2. Psychologist Agent**  
-- *Focus*: Identify psychological conditions (e.g., panic disorder, anxiety).  
+- *Focus*: Identifies potential psychological factors such as anxiety disorders or panic disorders. 
 - *Recommendations*: Therapy, stress management, or medication adjustments.  
 
 **3. Pulmonologist Agent**  
-- *Focus*: Assess respiratory causes for symptoms (e.g., asthma, breathing disorders).  
+- *Focus*: Evaluates respiratory causes for symptoms, including asthma or breathing disorders.
 - *Recommendations*: Lung function tests, breathing exercises, respiratory treatments.  
 
 ---
